@@ -1,3 +1,7 @@
+#Introduction
+automatic build tools for nginx configuration which can generate specified location blocks by setting system environment.    
+do some modification and encapsulation base on source code LinkedInAttic/nginx-config-builder. 
+
 # Environment
 ```
 
@@ -14,7 +18,7 @@ SETTINGKIT_ITEM_SERVER_0 = "listen=3333&root=/pc"
 SETTINGKIT_ITEM_SERVER_1 = "listen=3331&root=/apc"
 SETTINGKIT_ITEM_SERVER_2 = "listen=3332&root=/cpc"
 
-#多个realip 以逗号分隔 此环境变量仅用于生产环境 开发环境可以不用写
+#i多个realip 以逗号分隔 此环境变量仅用于生产环境 开发环境可以不用写
 SETTINGKIT_ITEM_REAL_IP = "35.186.245.2"
 
 """
